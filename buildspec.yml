@@ -11,6 +11,7 @@ phases:
       - ls -lrt 
       - npm test
       - pwd 
+      - chmod -R 775 *
   
 artifacts:
   files:
