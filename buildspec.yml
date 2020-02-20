@@ -6,7 +6,7 @@ phases:
       - pwd 
       - npm install
       - ls -lrt 
-      - chmod -R 775 
+      - chmod -R 775 *
       - ls -lrt 
   build:
     commands:
